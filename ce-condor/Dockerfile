@@ -18,8 +18,6 @@ ADD condor.d/90_daemons.config /etc/condor/config.d/99_daemons.config
 
 ADD osg.d/20-condor.ini /etc/osg/config.d/20-condor.ini
 
-# I suspect I don't need to explicitly add fect-cron
-RUN ls -l /etc/cron.d/fetch-crl.cron && cat /etc/cron.d/fetch-crl.cron && echo "==========="
 ADD cron.d/fetch-crl.cron /etc/cron.d/fetch-crl.cron
 
 ADD supervisord.d/condor.conf /etc/supervisord.d/condor.conf
