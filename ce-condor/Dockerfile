@@ -8,7 +8,7 @@ RUN yum -y install  \
     yum -y install  \
                    condor \
                    redhat-lsb-core && \
-    yum -y install osg-ce-condor && \
+    yum -y install osg-ce-condor
 
 RUN yum -y update
 
