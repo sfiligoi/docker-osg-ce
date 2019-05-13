@@ -14,7 +14,7 @@ RUN yum -y update
 
 RUN yum clean all
 
-ADD condor.d/99_daemons.config /etc/condor/config.d/99_daemons.config
+ADD condor.d/90_daemons.config /etc/condor/config.d/99_daemons.config
 
 ADD osg.d/20-condor.ini /etc/osg/config.d/20-condor.ini
 
