@@ -6,9 +6,9 @@ OSG CE images.
 # Sub images
 
 There are three sub-repositories in here:
-* The OSG HTCondor CE[ce-condor](ce-condor)
-* The OSG BOSCO CE[ce-bosco](ce-bosco)
-* A base image, used for inheritance [base](base)
+* The OSG HTCondor CE - [ce-condor](ce-condor)
+* The OSG BOSCO CE - [ce-bosco](ce-bosco)
+* A base image, used for inheritance - [base](base)
 
 # Image repository
 
