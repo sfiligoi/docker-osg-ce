@@ -27,6 +27,7 @@ The accounts should be configured using the standard Linux commands (e.g. userad
 
 e.g.
 * /etc/osg/image-config.d/20_create.account.sh
+
 Please make sure the UID and GID of such accounts are persistent across container restarts.
 
 # Image repository
