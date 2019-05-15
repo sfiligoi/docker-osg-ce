@@ -9,7 +9,7 @@ First, make sure you follow the usage instructions from [the base image](../base
 
 The additional steps are as follows.
 
-Properly configure ithe HTCondor schedd. 
+Properly configure the HTCondor schedd. 
 The right configuration is site specific, but the files should be located in:
 * /etc/condor/config.d/
 
