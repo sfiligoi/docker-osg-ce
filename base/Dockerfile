@@ -1,4 +1,4 @@
-FROM opensciencegrid/software-base:fresh
+FROM opensciencegrid/software-base:3.5-el7-release
 
 # Fix condor UID to allow for persistency
 RUN groupadd -g 2000 condor && useradd -u 2000 -g 2000 -s /sbin/nologin condor
