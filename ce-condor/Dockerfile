@@ -14,3 +14,5 @@ ADD osg.d/20-condor.ini /etc/osg/config.d/20-condor.ini
 ADD condor.d/90_daemons.config /etc/condor/config.d/90_daemons.config
 ADD supervisord.d/condor.conf /etc/supervisord.d/condor.conf
 
+RUN mkdir -p /var/lock/condor && chown condor:condor /var/lock/condor
+
